@@ -93,7 +93,7 @@ if (topo == NULL) {
 else {
 	NO* aux = topo;
 	topo = topo->prox;
-	cout << "Elemento." << aux->valor << " removido! \n";
+	cout << "O numero." << aux->valor << " removido! \n";
 	free(aux);
 }
 }
